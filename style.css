@@ -252,6 +252,8 @@ main{
     border: none;
     background-color: #FFFFFF;
     margin: 5px auto 19px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 .secfive .right #message{
     height: 135px;
