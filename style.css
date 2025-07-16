@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #F5F8FF; */
+    box-sizing: border-box;
+}
+/* Font */
+.main-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.second-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Style */
+.btn-main{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-main:hover{
+    background-color: yellow;
+    color: black;
+
+}
+/* Header Style */
+header{
+    background-image: url('images/Hero-bg.png');
+    /* border: 1px solid red; */
+    height: 698px;
+}
+/* Navigation Style */
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0px 150px;
+    padding-top: 50px;
+}
+nav .logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+nav .btn-nav{
+    width: 132px;
+    height: 48px;
+}
+/* Banner Style */
+.banner{
+    text-align: center;
+    margin: 158px 267px 152px;
+}
+.banner h3{
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner .btn-banner{
+    margin-top: 37px;
+    width: 174px;
+    height: 48px;
+}
+/* Section One Style */
+main{
+    background-color: #F5F8FF;
+}
+.secone{
+    margin: 0px 141px 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 116px;
+    /* border: 1px solid red; */
+}
+.left{
+    width: 517px;
+}
+.left h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+.left p{
+    font-size: 24px;
+    margin: 23px auto;
+}
+.left .btn-secone{
+    width: 229px;
+    height: 48px;
+}
+.right img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* Section Two Style */
+.sectwo{
+    margin: 0px 141px 137px;
+    background-color: #E5E7FF;
+    /* border: 1px solid red; */
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+.sectwo .title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #E5E7FF;
+}
+.sectwo .contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #E5E7FF;
+}
+.content .content-title{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    background-color: #E5E7FF;
+}
+.content .content-desc{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #81828D;
+    background-color: #E5E7FF;
+}
+/* Section Three Style */
+.secthree{
+    margin: 0px 151px 137px;
+    /* border: 1px solid red; */
+    padding: 24px 24px;
+}
+.secthree .secthree-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+}
+.card #card-img{
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-title{
+    font-size: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-desc{
+    font-size: 16px;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-footer{
+    display: flex;
+    gap: 12px;
+}
+.card-footer{
+    background-color: #FFFFFF;
+}
+.card-footer img{
+    border-radius: 50px;
+}
+.footer-right h4{
+    font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.footer-right p{
+    font-size: 16px;
+    color: #B3B3B3;
+    background-color: #FFFFFF;
+}
+/* Section Four Style */
+.secfour{
+    margin: 0px 151px 92px;
+    /* border: 1px solid red; */
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.secfour h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.secfour p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #808080;
+}
+.secfour .btn-secfour{
+    display: block;
+    width: 195px;
+    height: 48px;
+    margin: 0 auto 20px;
+}
+.secfour-img{
+    display: flex;
+    justify-content: center;
+}
+.secfour img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+/* Section Five Style */
+.secfive{
+    /* border: 1px solid red; */
+    margin: 0px 150px 14px;
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    padding-bottom: 71px;
+}
+.secfive h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.secfive .right label{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+.secfive .right .input-f{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    margin: 5px auto 19px;
+}
+.secfive .right #message{
+    height: 135px;
+}
+.secfive .btn-secfive{
+    width: 497px;
+    height: 62px;
+}
+
+/* Footer Style */
+footer{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 104px 454px;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+footer p{
+    font-size: 16px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+footer .footer-list{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #8987A1;
+}
